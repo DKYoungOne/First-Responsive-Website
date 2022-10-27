@@ -9,8 +9,8 @@ body
 .gridContainer
 {
     display: grid;
+    /* This is basically means the top 50% of the in */
     grid-template-rows: 50% auto;
-    
     grid-template-columns: 100%;
     height: 100vh;
     font-family: 'Times New Roman', Times, serif;
@@ -26,6 +26,11 @@ header
     justify-content: center;
     align-items: center;
     
+}
+
+header p{
+    margin: auto;
+    text-align: center;
 }
 
 footer
@@ -45,7 +50,7 @@ footer
     width: 40%;
     padding: 15px;
     text-align: center;
-    font-size: 25pt;
+    font-size: 35px;
     height: auto;
     align-items: center;
     justify-content: center;
@@ -98,7 +103,7 @@ footer
     }
     footer
     {
-        flex-flow: column;
+        flex-direction: column;
         justify-content: center;
         background-color: black;
         color: white;
